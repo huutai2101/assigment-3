@@ -1,0 +1,26 @@
+@media only screen and (max-width: 992px) {
+    .border-bottom {
+        border-bottom: 1px solid coral !important;
+    }
+    
+    #nav-bar > .container > .info {
+        display: none;
+    }
+
+    #nav-bar > .container > .item {
+        padding: 20px 0;
+    }
+
+    #job-info > .container {
+        grid-template-columns: 50% 50%;
+        padding: 0;
+    }
+
+    #certificate > .container {
+        padding: 0;
+    }
+
+    #certificate .container .content .cer-item {
+        flex-direction: column;
+    }
+}

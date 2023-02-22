@@ -1,0 +1,75 @@
+@media only screen and (max-width: 576px) {
+
+    #nav-bar > .container {
+        flex-direction: column;
+    }
+
+    #nav-bar > .container > .info {
+        display: none;
+    }
+
+    #nav-bar > .container > .item {
+        border: none !important;
+        justify-content: left;
+        margin-top: 20px;
+    }
+
+    #nav-bar > .container > .item:nth-last-child(1) {
+        margin-bottom: 20px;
+    }
+
+    #about > .container {
+        flex-direction: column;
+    }
+
+    #personal-info h1, #personal-info .social {
+        margin-left: 0;
+    }
+
+    #personal-info ul {
+        padding-left: 0;
+    }
+
+    #job-info > .container {
+        grid-template-columns: 100%;
+        padding: 0;
+    }
+
+    #job-info > .container > div {
+        min-height: 400px;
+    }
+
+    #certificate .container .content  {
+        grid-template-columns: 100%;
+    }
+
+    #certificate .container .content .cer-item {
+        border: none;
+        border-bottom: 1px solid coral !important;
+    }
+
+    #project .container {
+        padding: 30px 0 0;
+    }
+
+    #project .container h1  {
+        text-align: center;
+    }
+
+    #project .container .content  {
+        grid-template-columns: 100%;
+        padding: 10px;
+    }
+
+    #project .container .content .project-item {
+        margin-bottom: 30px;
+    }
+
+    #footer .container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    
+
+}
